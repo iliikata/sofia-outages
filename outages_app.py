@@ -212,7 +212,7 @@ HTML_TEMPLATE = """
         <h2 class="text-center mb-4">📍 Проверка за Ток и Вода по Адрес</h2>
         <form method="POST" class="mb-3">
             <div class="input-group">
-                <input type="text" name="address" class="form-control form-control-lg" placeholder="Въведете адрес (напр. ул. Сава Огнянов 1)..." value="{{ address or '' }}" required>
+                <input type="text" name="address" class="form-control form-control-lg" placeholder="Въведете адрес (напр. ул. Московска 33)..." value="{{ address or 'ул. Московска 33' }}" required>
                 <button class="btn btn-primary btn-lg" type="submit">Провери на картата</button>
             </div>
         </form>
